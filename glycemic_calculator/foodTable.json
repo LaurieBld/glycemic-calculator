@@ -1,0 +1,52 @@
+{ "food":[
+    {
+        "id": 1,
+        "name": "Yaourt",
+        "glycemic": 23
+    },
+    {
+        "id": 2,
+        "name": "Chocolat",
+        "glycemic": 43
+    },
+    {
+        "id": 3,
+        "name": "Bière",
+        "glycemic": 100
+    },
+    {
+        "id": 4,
+        "name": "Lentilles",
+        "glycemic": 30
+    }, {
+        "id": 5,
+        "name": "Jus d'orange",
+        "glycemic": 45
+    },
+    {
+        "id": 6,
+        "name": "Sucre",
+        "glycemic": 70
+    },
+    {
+        "id": 7,
+        "name": "Chips",
+        "glycemic": 70
+    }, {
+        "id": 8,
+        "name": "Confiture",
+        "glycemic": 65
+    },
+    {
+        "id": 9,
+        "name": "Raisin",
+        "glycemic": 53
+    },
+    {
+        "id": 10,
+        "name": "CocaCola",
+        "glycemic": 70
+    }
+    
+]
+}

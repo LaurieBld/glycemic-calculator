@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Styling Header Container */
+
+.header-container {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 2em 0.5em 1em;
+}
+
+.logo {
+  width: 150px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.description {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/*Styling Actions Container */
+
+.actions-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 700px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.actions-container button {
+  padding: 0.5em;
+  border-radius: 8px;
+}
+
+/*Styling Results Container */
+
+.results-container {
+  margin: 0 auto 1em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 575px;
+  border-radius: 10px;
+  padding: 1em;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Styling Get Container */
+
+.employee {
+  display: flex;
+  width: 600px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.3em;
+}
+
+.employee ul {
+  list-style: none;
+  align-self: center;
+}
+
+/*Styling Form Elements */
+
+.form-control {
+  width: 500px;
+}
+
+.get-container {
+  display: none;
+}
+
+.post-container {
+  display: none;
+}
+
+.put-container {
+  display: none;
+}
+
+.delete-container {
+  display: none;
+}
+
+#newEmpSubmit {
+  width: 500px;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin: 0 0 0.8em 0;
+}
+
+.form-group.success input {
+  border-color: green;
+}
+
+.form-group.error input {
+  border-color: red;
+}
+
+.form-group.error small {
+  visibility: visible;
+  color: red;
+}
+
+.form-group.success small {
+  visibility: hidden;
+}
+
+.form-group small {
+  visibility: hidden;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+ 
+/* FORM INSCRIPTION */
+
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+    font-family: 'Special Elite', cursive;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* FIN FORM INSCRIPTION */
+
+/* FORM INDEX */
+
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.deco {
+    justify-content: center;
+}
+
+/* FIN FORM INDEX */
